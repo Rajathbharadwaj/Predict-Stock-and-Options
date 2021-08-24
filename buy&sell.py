@@ -109,10 +109,10 @@ else:
         requests_log.setLevel(logging.DEBUG)
         requests_log.propagate = True
         headers = {'authority': 'www.nseindia.com', 'sec-ch-ua': '"Google Chrome";v="89","Chromium";v="89", ";Not A Brand";v="99"', 'dnt': '1', 'sec-ch-ua-mobile': '?0','user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36', 
-        'accept': '*/*','sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty',  'referer': 'https://www.nseindia.com/get-quotes/derivatives?symbol=TATASTEEL', 'accept-language': 'en-US,en;q=0.9', 'cookie': '_ga=GA1.2.1081862820.1614865340; _gid=GA1.2.1264843313.1614865340; bm_mi=9A4B9B11525D0E0771CB3018E77200AF~uBdVRpAS8H0oHTEVPVED5iZXRhbswRbqKr9FwRIsetfXmbIHY0sAbxdZo5tNT4NlJoD0v//v/5aLJS7opAIITW20uMU1K2+v9IYGmYPQC4JEy63vzpY1Eo9kQsXlR42FCR1jxWhvbJBDJj+rKQ9XczVCUiil+Z/LnEtpl9Jqb7q6hvLTMRGI5YyisNFgmtX2bZDkDJOSPtGGmSfINgJzgejwIpd73Eq46BDG0iUHDzl8sOowfiUO0VmJ6SKJK1YXpwwEeYAJ1eUc7cZ3wvnl+r9/lyJGgteYpDlWH0ICphM=; ak_bmsc=BACEC0601DD7BC089262BC414A09B25717CB3F26EE390000E98E42607E58EC21~plGmzJSDgUpUSGhsyhqglZod0mpHnIaGCKeJbCcijBnYLZ27mDAfI+zk7uYf1uka0FZGdh3UV0x0Ftvk1p4o+hlbwH0eTzCrzjU5dX5K53GdyzYqcFbkIk1Fhb3vK+I8Qo6+ire/GxtFwnrFsMPs4QFfI6p2kw1OWb1kkuO8jUOrvlSsQQRSOakdwPoI/huLPRFPyH5SzsT0CLtYxPkUDxoDp4EWiaqUjmToSqgBE1zvIsmGgS60P0zjg1no2vRldS; nsit=btA7vAkQKEl7v1W_C8IP_1YB; nseappid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcGkubnNlIiwiYXVkIjoiYXBpLm5zZSIsImlhdCI6MTYxNDk3ODQ3NSwiZXhwIjoxNjE0OTgyMDc1fQ.nOdnX3Zz4ecOXc9PPKS1adDtFe7uqSPzR0oje-xylqM; AKA_A2=A; _gat_UA-143761337-1=1; nseQuoteSymbols=[{"symbol":"ONGC","identifier":null,"type":"equity"},{"symbol":"TATASTEEL","identifier":null,"type":"equity"},{"symbol":"RELIANCE","identifier":null,"type":"equity"},{"symbol":"NIFTY","identifier":null,"type":"equity"},{"symbol":"ULTRACEMCO","identifier":null,"type":"equity"}]; RT="z=1&dm=nseindia.com&si=a0720b4b-d39f-448f-9660-f171042e20dc&ss=klwshj7q&sl=0&tt=0&bcn=%2F%2F684d0d3d.akstat.io%2F&ld=28vjz&nu=29229de80135c93cac9e000a3892125b&cl=1mn"; bm_sv=263F730BF03C98334C043DAEBC770704~9cA3hGpWATfOSB2FAj00RUrQkyz92xmEwCpJGDLFRRPgJ6yXndmO6Fb6JMBHSwg7MJJbmGmhQ7S7ZszJMA66POnRR1uXKfJp9HeONBk3VCVU9D0/l+SZrQO5jNEqacGg/EjVzBiLoZMWG6Zq/x55EDdbGmUtksz0kGEarJgYCFM='}
+        'accept': '*/*','sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty',  'referer': 'https://www.nseindia.com/get-quotes/derivatives?symbol=TATASTEEL', 'accept-language': 'en-US,en;q=0.9', 'cookie': '_ga=GA1.2.1081862820.1614865340; _gid=GA1.2.1264843313.1614865340; nseQuoteSymbols=[{"symbol":"RELIANCE","identifier":null,"type":"equity"},{"symbol":"ULTRACEMCO","identifier":null,"type":"equity"},{"symbol":"NIFTY","identifier":null,"type":"equity"},{"symbol":"GAIL","identifier":null,"type":"equity"},{"symbol":"BANKNIFTY","identifier":null,"type":"equity"}]; _gat_UA-143761337-1=1; nsit=tT-WoRoURyA_rHZXxuQer6KU; nseappid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcGkubnNlIiwiYXVkIjoiYXBpLm5zZSIsImlhdCI6MTYxNTE4MjI0MiwiZXhwIjoxNjE1MTg1ODQyfQ.SkFKAAvnUi6uaT2kEujQuZYcphRvVAhboQ1o7VQjtNg; AKA_A2=A; bm_mi=28B4EB87B0B69A17F18650A134A64DE1~qxR4BdHAuIx+oEGDYundAH8MXFGQ6cfaJnMEX6dV6LDw/Kc8nNnrtZs4HycnjNM3YftYmJonRk1Xig0Q3V8u3/FwY0aF0ycVsWBfy594DzCUq6iqpS5WYQ2Pk/rMTvEoEho5nw4xO2T2LC4D/N/POtmKa/lpgFMHrliJvcumTp5W3p6dXHgwrTm9VoRT/umRuCivy8duiPAlomdSfLQJQYx4RuW4TAlJxJhDpnMj5h6oUZxT/cuW904CAxt+ayWSLmV+g+016ihzKkPDs7ZADDuoNUXGx/EXeID5aK0x8zw=; ak_bmsc=B2388FD4761BCAD2A3ED06E1A1FB875817CB3F061272000093B94560C252AD73~plp/7SMWxhUhDJTU4F0ZpCeP6uQjlEWjz5sYv6HKhocQlaRKecuwYSuwyExr9KCWZZ3+q6HxP15MGbhl6bSdIlgD3lCSiQZFui/TfMRNYA0mcOdKADNLOwdB3aq34b7vN3zCQbNq00YMEsiR98GC6mihX/OUun0B4iF3GdQTIZCMoEXMMR6SRFq1OSUPxeEYIWSIaBQ5kwDvwz0t2zLVkEa2I/ojIIQBMUZOsV5Y1NxXaMdMUoLQtlCVUb3PR2akYz; RT="z=1&dm=nseindia.com&si=a0720b4b-d39f-448f-9660-f171042e20dc&ss=km05slvs&sl=1&tt=sm&bcn=%2F%2F684d0d36.akstat.io%2F&ld=dkw&nu=cf6e14f7a6cba99d8b93fa99eb3a5d82&cl=fah"; bm_sv=9B50E9C989EA11785A7A8B6C1ECEBD5E~OexA18ZT1Q+51dUv4i5XqSpp9IStBs+NpwkybJga2Spd5gYZW0QL1yMqatK14y2/huLXJqyRgW/zSdzxJGHXrs3jvOKEsbiZHKx23im/RdElrFmuPyq6cBIto7/9b+hbB2ghhqTsE63D/lgIZa2S2QCMPGOGclf4Pt3r+LzlZws='}
 
         try:
-            if symbol == 'NIFTY':
+            if 'NIFTY' in symbol:
                 response = requests.get(
                 'https://www.nseindia.com/api/option-chain-indices',
                 params={'symbol': symbol}, headers=headers)
@@ -124,16 +124,18 @@ else:
             print(f'this is the ex -> {e}')
         return response
     
-    response = loadOptionsData(stock_name)
+    response = loadOptionsData(stock_name.upper())
 
     if st.button('Click to Reload'):
-        response = loadOptionsData(stock_name)
-
+        response = loadOptionsData(stock_name.upper())
+    
+   
     
     s = json.dumps(response.json())
     j = json.loads(s)
 
     #creating DF
+    
     df = pd.DataFrame(columns=[
         'OICALL', 
         'CHNG IN OI CALL',
@@ -183,6 +185,8 @@ else:
 
     for k in j['filtered']['data']:
         try:
+            underlying = k['CE']['underlying']
+            underlying_value = k['CE']['underlyingValue']
             STRIKE_PRICE.append(k['strikePrice'])
             OICALL.append(k['CE']['openInterest'])
             chgInOICALL.append(k['CE']['changeinOpenInterest'])
@@ -246,6 +250,9 @@ else:
     # s = df.style.apply(highlight_cols, axis=None)
     cm = sns.light_palette("green", as_cmap=True)
     s = df.style.background_gradient(cmap=cm, subset=pd.IndexSlice[:, ])
-    s = df.style.background_gradient(cmap='viridis', subset=pd.IndexSlice[:, 'STRIKE PRICE'])
     s = df.style.applymap(df_style, subset=pd.IndexSlice[:, 'STRIKE PRICE'])
+    s = df.style.background_gradient(cmap='viridis')
+    
+    st.title(underlying)
+    st.write('SPOT Price',underlying_value)
     st.write(s) 
